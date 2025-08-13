@@ -1,1 +1,1 @@
-# date-in-frontend
+# The frontend side of our application
