@@ -1,5 +1,5 @@
-import SignUp from "../src/pages/user/ui/signUp";
+import Onboarding from "@/src/pages/user/ui/onboarding";
 
 export default function Home() {
-  return <SignUp />;
+  return <Onboarding />;
 }

@@ -11,7 +11,7 @@ export default function SignUp({ className }: { className?: string }) {
       )}
     >
       <div className="relative w-[100px] h-[100px] mt-32">
-        <Image fill src="./logo.svg" alt="logo image" />
+        <Image fill src="/logo.svg" alt="logo image" />
       </div>
 
       <div className="w-full flex flex-col max-w-[360px] mt-19.5">
@@ -25,8 +25,8 @@ export default function SignUp({ className }: { className?: string }) {
       </div>
 
       <div className="flex gap-8 text-red text-sm mt-auto pb-12">
-        <a>Terms of use</a>
-        <a>Privacy Policy</a>
+        <a className="cursor-pointer">Terms of use</a>
+        <a className="cursor-pointer">Privacy Policy</a>
       </div>
     </div>
   );
